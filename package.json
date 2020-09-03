@@ -1,0 +1,25 @@
+{
+  "name": "nations",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "watch": "nodemon bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Diamond",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "discord.js": "^12.3.1",
+    "ffmpeg": "0.0.4",
+    "minecraft-server-util": "^1.4.3",
+    "node-fetch": "^2.6.0",
+    "nodemon": "^2.0.4",
+    "opusscript": "0.0.7",
+    "random-puppy": "^1.1.0",
+    "request": "^2.88.2",
+    "ytdl-core": "^3.2.2",
+    "ytsr": "^0.1.21"
+  }
+}

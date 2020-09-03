@@ -14,7 +14,7 @@ module.exports = async (client, args, authorIcon, author, message, user, clientN
     .setThumbnail(authorIcon)
     .setColor("RED")
     .setFooter("2020 Copyright | " + clientName)
-    user.user.send(ONONED)
+    user.send(ONONED)
     await delay(2000)
     user.kick()
     const kickEmbed = new MessageEmbed()
